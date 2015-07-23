@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.pam.cpns_2014"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission
+        android:name="android.permission.INTERNET"
+        android:maxSdkVersion="21" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name=".Analytics"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <!-- GOOGLE ANALYTICS -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.analytics.CampaignTrackingReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="project.pam.cpns_jadwal.JadwalCPNS"
+            android:label="@string/title_activity_jadwal_cpns" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_jadwal.SplashscreenJadwal"
+            android:label="@string/title_activity_splashscreen_jadwal" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi0.Formasi0CPNS"
+            android:label="@string/title_activity_formasi0_cpns" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi0.SplashscreenFormasi0"
+            android:label="@string/title_activity_splashscreen_formasi0" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi1.Formasi1CPNS"
+            android:label="@string/title_activity_formasi1_cpns" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi1.SplashscreenFormasi1"
+            android:label="@string/title_activity_splashscreen_formasi1" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi2.Formasi2CPNS"
+            android:label="@string/title_activity_formasi2_cpns" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi2.SplashscreenFormasi2"
+            android:label="@string/title_activity_splashscreen_formasi2" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi2.ResponseFormasi2CPNS"
+            android:label="@string/title_activity_response_formasi2_cpns" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi3.Formasi3CPNS"
+            android:label="@string/title_activity_formasi3_cpns" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_formasi3.SplashscreenFormasi3"
+            android:label="@string/title_activity_splashscreen_formasi3" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_lowongan0.SplashscreenLowongan0"
+            android:label="@string/title_activity_splashscreen_lowongan0" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_lowongan0.Lowongan0"
+            android:label="@string/title_activity_lowongan0" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_lowongan1.SplashscreenLowongan1"
+            android:label="@string/title_activity_splashscreen_lowongan1" >
+        </activity>
+        <activity
+            android:name="project.pam.cpns_lowongan1.Lowongan1"
+            android:label="@string/title_activity_lowongan1" >
+        </activity>
+    </application>
+
+</manifest>

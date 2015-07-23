@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/hitam"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/IDLow"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/putih" />
+        
+         <TextView
+            android:id="@+id/txtTahun"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/Tahun"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/putih" />
+         
+          <TextView
+            android:id="@+id/txtLembaga"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/Lembaga"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/putih" />
+          
+           <TextView
+            android:id="@+id/txtJabatan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/Jabatan"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/putih" />
+           
+           <TextView
+            android:id="@+id/txtKualifikasi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/Kualifikasi"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/putih" />
+           
+           <TextView
+            android:id="@+id/txtAlokasi"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/Alokasi"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/putih" />
+           
+        
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/dataCPNS"
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:background="@color/putih"
+        android:dividerHeight="2dp"
+        android:verticalSpacing="5dp" />
+    
+    <Button
+        android:id="@+id/buttonHome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Home" />
+
+</LinearLayout>

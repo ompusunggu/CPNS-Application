@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CPNS_2014</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_jadwal_cpns">JadwalCPNS</string>
+    <string name="title_activity_splashscreen_jadwal">SplashscreenJadwal</string>
+    <string name="CPNS"> Kelompok 2 </string>
+    <string name="Instansi"> Instansi </string>
+    <string name="Status"> Status </string>
+    <string name="Jadwal"> Jadwal </string>
+    <string name="Total"> Total </string>
+    <string name="title_activity_formasi0_cpns">Formasi0CPNS</string>
+    <string name="Formasi"> FORMASI </string>
+    <string name="Detail"> DETAIL </string>
+    <string name="title_activity_splashscreen_formasi0">SplashscreenFormasi0</string>
+    <string name="LoadJadwal"> JADWAL CPNS </string>
+    <string name="LoadFormasi0"> FORMASI CPNS </string>
+    <string name="LoadFormasi1"> LoadFormasi1 </string>
+    <string name="LoadFormasi2"> LoadFormasi2 </string>
+    <string name="LoadFormasi3"> LoadFormasi3 </string>
+    <string name="LoadLowongan0"> LOWONGAN </string>
+    <string name="ID">ID</string>
+    <string name="title_activity_formasi1_cpns">Formasi1CPNS</string>
+    <string name="Lembaga"> LEMBAGA </string>
+    <string name="title_activity_splashscreen_formasi1">SplashscreenFormasi1</string>
+    <string name="title_activity_formasi2_cpns">Formasi2CPNS</string>
+    <string name="title_activity_splashscreen_formasi2">SplashscreenFormasi2</string>
+    <string name="title_activity_response_formasi2_cpns">ResponseFormasi2CPNS</string>
+    <string name="IdFormasiLem"> ID FORMASI LEMBAGA </string>
+    <string name="title_activity_formasi3_cpns">Formasi3CPNS</string>
+    <string name="title_activity_splashscreen_formasi3">SplashscreenFormasi3</string>
+    <string name="title_activity_splashscreen_lowongan0">SplashscreenLowongan0</string>
+    <string name="title_activity_lowongan0">Lowongan0</string>
+    <string name="IDLow"> ID </string>
+    <string name="Tahun"> TAHUN </string>
+    <string name="Jabatan">JABATAN</string>
+    <string name="Kualifikasi">KUALIFIKASI</string>
+    <string name="GolRuang">GOLRUANG</string>
+    <string name="Alokasi">ALOKASI</string>
+    <string name="Penempatan">PENEMPATAN</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5712381174325653/7044991729</string>
+    <string name="title_activity_check_battery">CheckBatteryActivity</string>
+    <string name="title_activity_splashscreen_lowongan1">SplashscreenLowongan1</string>
+    <string name="title_activity_lowongan1">Lowongan1</string>
+
+</resources>
